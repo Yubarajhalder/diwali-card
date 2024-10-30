@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(1317936.png);
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+
+}
+.cbox{ 
+
+    height: 76vh;
+    width: 30vw;
+    background-image: url(download.jpg);
+    background-size: cover;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.cbox {
+    height: 76vh;
+    width: 30vw;
+    background-image: url(download.jpg);
+    background-size: cover;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    transition: all 0.3s ease; /* Add transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box-shadow */
+  }
+  
+  .cbox:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 0 160px rgba(221, 17, 54, 0.8); /* Increase box-shadow on hover */
+  }
+  
+.txt{
+    background-color: transparent !important;
+    margin-top: 80px;
+    margin-left: 110px;
+
+}
+.txt h1 {
+    color: rgb(59, 126, 185);
+    background-color: transparent !important;
+    font-size: 60px;
+
+}
+.txt h2{
+    background-color: transparent !important;
+    font-size: 35px;
+    margin-left: 50px;
+}
+.txt h3{
+    background-color: transparent !important;
+    color: rgb(199, 151, 64);
+    margin-left: 50px;
+}
+.wish{
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.wish p{
+    background-color: transparent !important;
+    color: rgb(237, 138, 8);
+    font-size: 20px;
+}
+.txt h1 {
+    color: rgb(59, 126, 185);
+    background-color: transparent !important;
+    font-size: 60px;
+    transition: all 0.3s ease; /* Add transition */
+  }
+  
+  .txt h1:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    color: rgb(255, 215, 0); /* Change color on hover */
+  }
+  
+  .txt h2 {
+    background-color: transparent !important;
+    font-size: 35px;
+    margin-left: 50px;
+    transition: all 0.3s ease; /* Add transition */
+  }
+  
+  .txt h2:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    color: rgb(255, 105, 97); /* Change color on hover */
+  }
+  
+  .txt h3 {
+    background-color: transparent !important;
+    color: rgb(199, 151, 64);
+    margin-left: 50px;
+    transition: all 0.3s ease; /* Add transition */
+  }
+  
+  .txt h3:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    color: rgb(207, 8, 8); /* Change color on hover */
+  }
+  
+  .wish p {
+    background-color: transparent !important;
+    color: rgb(237, 138, 8);
+    font-size: 18px;
+    transition: all 0.3s ease; /* Add transition */
+  }
+  
+  .wish p:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    color: rgb(47, 218, 21); /* Change color on hover */
+  }
